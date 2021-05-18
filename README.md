@@ -4,7 +4,7 @@
 
 ## Author
 
-> By **MANASSEH BUNDI**
+> By **LOUISE MANYARA**
 
 > -----------------------------------------------------------
 
@@ -24,7 +24,7 @@ As a user I would like:
 ## How to use it
 
 > * Internet connection
-> * Click https://personalgalleryproject.herokuapp.com/) <br/>
+> * Click   <br/>
   
 
 
@@ -70,20 +70,20 @@ As a user I would like:
 
 ## Known Bugs
 
-> It does not have bugs.But if any problems should occur, email me at manassehbundi2017@gmail@gmail.com
+> if any problems should occur, email me at louisenje@gmail@gmail.com
 
 > * N/B Also it is not finished yet...more features and functionalities are still being worked on.
 
 ## Support and Contact Details
 
-> You can reach out to me at manassehbundi2017@gmail.com
+> You can reach out to me at louisenje@gmail.com
 for Reviews, Advice, Collaborations and Comments
 
 ## Licence
 
 > MIT License
 
-> Copyright (c) 2020 **Manasseh Bundi**
+> Copyright (c) 2021 **Louise manyara**
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
