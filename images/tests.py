@@ -11,3 +11,11 @@ class imageTestClass(TestCase):
         self.category.save_category()
         self.image=image(id=1,image='articles/smiley-4832482_1920.png',image_name='smiley-4832482_1920.png',image_description="Good picture",
                         pub_date='2020-05-19 12:20:58.843802+03',location=self.location,category_id=self.category)
+ 
+    def tearDown(self):
+        location.objects.all().delete()
+        category.objects.all().delete()
+        image.objects.all().delete()
+        
+    def test_instance(self):
+        self.assertTrue(isinstance(self.image,image))
