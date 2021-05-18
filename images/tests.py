@@ -19,3 +19,10 @@ class imageTestClass(TestCase):
         
     def test_instance(self):
         self.assertTrue(isinstance(self.image,image))
+
+    def test_save_method(self):
+        self.location.save_location()
+        self.category.save_category()
+        self.image.save_image()
+        imaged=image.objects.all()
+        self.assertTrue(len(imaged)==1)
