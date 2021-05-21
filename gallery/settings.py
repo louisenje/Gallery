@@ -111,15 +111,7 @@ WSGI_APPLICATION = 'gallery.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'personalgallery',
-        'USER': 'louise',
-        'PASSWORD':'password',
-        
-    }
-}
+
 
 
 
@@ -174,3 +166,6 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 MEDIA_URL = "/media/"
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "live-static", "media-root")
+
+# Configure Django App for Heroku.
+django_heroku.settings(locals())
