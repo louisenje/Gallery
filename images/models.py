@@ -1,6 +1,7 @@
 from django.db import models
 import datetime as dt 
 
+
 # Create your models here.
 class location(models.Model):
     location_name=models.CharField(max_length=60)
@@ -38,6 +39,8 @@ class image(models.Model):
     location=models.ForeignKey(location,on_delete=models.CASCADE)
     category=models.ForeignKey(category,on_delete=models.CASCADE)
 
+   
+
     def __str__(self):
         return self.image_name
 
@@ -66,5 +69,5 @@ class image(models.Model):
         return imaged
 
 
-  
+
 

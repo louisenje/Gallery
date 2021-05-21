@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../bundi/personal-gallery/media/articles"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
