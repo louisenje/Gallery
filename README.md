@@ -1,6 +1,6 @@
 # Personal Gallery
 
-> A personal gallery application that I display my photos for others to see.
+> A personal gallery application that displays my photos for others to see.
 
 ## Author
 
@@ -24,7 +24,7 @@ As a user I would like:
 ## How to use it
 
 > * Internet connection
-> * Click   <br/>
+> * Click <br> https://personalgallery21.herokuapp.com/ <br/>
   
 
 
@@ -43,7 +43,7 @@ As a user I would like:
 ### Prerequisites
 
 > * Internet access
-> * ```git clone https://github.com/Nasseh123/personal-gallery.git```
+> * ```git clone https://github.com/louisenje/gallery.git```
 > * ```cd PERSONAL-GALLERY```
 
 #### To install a virtual environment
